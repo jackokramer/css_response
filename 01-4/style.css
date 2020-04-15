@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #23424A;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+    
+    padding: 2em;
+}
+
+.intro-content{
+    background: turquoise;
+    color: black;
+    width: 50%; /*Width of 50% not 80%*/
+    margin: 0 auto;
+    padding: 1em;
+}
