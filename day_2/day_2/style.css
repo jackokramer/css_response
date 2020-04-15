@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+body { 
+    margin: 0;
+    font-family: sans-serif;
+} 
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    background: #23424A;
+    color: white;
+    padding: 50px 0; 
+}
+
+.intro-content {
+    width: 100%;
+}
+
+.intro-content h1, p{
+    padding: 3%;
+    text-align: center;
+}
+
+.intro-content img{
+    width: 500px;
+    height: 300px;
+    image-orientation: initial;
+    /* HOW TO CENTER AN IMG */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.body-con{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.body-con h1{
+    text-align: center;
+}
