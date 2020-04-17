@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+}
+
+.dark-blue{
+    position: absolute;
+    width: 1440px;
+    height: 670px;
+    left: 0px;
+    top: 0px;
+    background: #23424A;
+}
+
+.h1{
+    position: absolute;
+    width:710px;
+    height: 365px;
+    left: 122px;
+    top: 148px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.button{
+    position: absolute;
+    left: 17%;
+    right: 17%;
+    top: 25%;
+    bottom: 24%;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 150%;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    color: #072A2D;
+}
