@@ -1,0 +1,25 @@
+h2{
+    font-size: 2.25em;
+}
+
+p, ul{
+    font-size: 1.125em;
+}
+
+.cta{
+    background: #ee6352;
+    padding:1em;
+    color: rgba(0,0,0,0.8);
+    font: 1.2em;
+}
+
+.cta_title{
+    margin: 0 0 0.5em;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
