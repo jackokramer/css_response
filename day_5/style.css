@@ -4,7 +4,12 @@
 
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
+}
+
+h1{
+    font-size: 3rem;
 }
 
 .container{
@@ -13,13 +18,13 @@ body{
     margin: 0 auto;
 }
 
-.dark-blue{
+.row{
     display: flex;
+    flex-direction: row;
+}
+
+.dark-blue{
     padding: 100px 0;
-    width: 1440px;
-    height: 670px;
-    left: 0px;
-    top: 0px;
     background-color: #23424A;
     color: #FFFFFF;
 }
@@ -29,36 +34,11 @@ body{
 }
 
 .her__text{
-    width:50%;
+    width:60%;
 }
 
-.h1{
-    position: absolute;
-    width:70%;
-    height: 365px;
-    left: 122px;
-    top: 148px;
-    font-size: 3rem;
-
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #FFFFFF;
-}
-
-p{
-    position: absolute;
-    width:70%;
-    height: 365px;
-    left: 122px;
-    top: 300px;
-
-    color: #FFFFFF;
+.dark-blue p{
     margin-bottom: 3em;
-
 }
 
 body{
@@ -76,23 +56,6 @@ body{
     background-color: mediumturquoise;
     padding: .75em, 2em;
     border-radius: 100px;
-    position: absolute;
-    top: 480px;
-    left: 122px;
-
-
-    /*left: 17%;
-    right: 17%;
-    top: 25%;
-    bottom: 24%;
-
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 150%;
-    letter-spacing: .05em;
-    text-transform: uppercase;*/
 }
 
 .button:hover,
