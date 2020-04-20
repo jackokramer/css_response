@@ -1,22 +1,44 @@
-*{
-    margin: auto;
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.container{
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .dark-blue{
     display: flex;
+    padding: 100px 0;
     width: 1440px;
     height: 670px;
     left: 0px;
     top: 0px;
-    background: #23424A;
+    background-color: #23424A;
+    color: #FFFFFF;
+}
+
+.dark-blue p{
+    margin-bottom: 3em;
+}
+
+.her__text{
+    width:50%;
 }
 
 .h1{
     position: absolute;
-    width:710px;
+    width:70%;
     height: 365px;
     left: 122px;
     top: 148px;
+    font-size: 3rem;
 
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -29,12 +51,14 @@
 
 p{
     position: absolute;
-    width:710px;
+    width:70%;
     height: 365px;
     left: 122px;
     top: 300px;
 
     color: #FFFFFF;
+    margin-bottom: 3em;
+
 }
 
 body{
@@ -44,17 +68,14 @@ body{
 }
 
 .button{
-    display: block;
-    width:180px;
-    height:32px;
-    background: mediumturquoise;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    color: #072A2D;
-    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
     text-transform: uppercase;
-
+    color: #23424A;
+    font-weight: 900;
+    background-color: mediumturquoise;
+    padding: .75em, 2em;
+    border-radius: 100px;
     position: absolute;
     top: 480px;
     left: 122px;
@@ -72,4 +93,9 @@ body{
     line-height: 150%;
     letter-spacing: .05em;
     text-transform: uppercase;*/
+}
+
+.button:hover,
+.button:focus{
+    opacity: .75;
 }
