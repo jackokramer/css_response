@@ -21,8 +21,6 @@ h1{
 .row{
     /*display felx =  creates a flex conTAINER*/
     display: flex;
-    flex-direction: row;
-    gap: 100px;
 }
 .col{
     /*these are the flex items*/
