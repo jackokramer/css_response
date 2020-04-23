@@ -2,6 +2,34 @@
     box-sizing: border-box;
 }
 
+header{
+    background: #136c72;
+    padding: .5em 0;
+}
+.nav_list{
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav_button{
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav_item_butt{
+    background: #fff;
+    color: #113366;
+    padding: .25em 1em;
+    border-radius: 10em;
+
+}
+.nav_butt{
+    color: #113366;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
