@@ -14,8 +14,13 @@ header{
     padding: 2px;
     list-style: none;
     align-items: center;
+    border: 2px solid red;
 
     font-size: .9rem;
+}
+
+.dog{
+    display: flex;
 }
 
 .nav_button{
