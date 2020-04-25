@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    width: 900px;
+    flex-shrink: 1;
+}
+
 header{
     background: #136c72;
     padding: .5em 0;
@@ -14,12 +22,15 @@ header{
     padding: 2px;
     list-style: none;
     align-items: center;
-    border: 2px solid red;
-
     font-size: .9rem;
 }
 
+.nav_list--primary{
+    margin: 0 auto;
+}
+
 .dog{
+    margin-right: 1em;
     display: flex;
 }
 
