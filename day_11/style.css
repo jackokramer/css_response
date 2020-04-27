@@ -173,3 +173,15 @@ h1 {
     padding: 1em;
     background-color: #23424A;
 }
+
+@media (max-width: 600px) {
+    .row{
+        display: block;
+    }
+    .hero_text, .img, .primary_content, .sidebar {
+        width: 100%;
+    }
+    .img {
+        margin-top: 2em;
+    }
+}
