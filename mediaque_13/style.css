@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.example{
+    width: 90%;
+    margin: 5em auto;
+    padding: 10em 0;
+    background-color: steelblue;
+}
+
+@media (min-width: 600px) and (max-width: 900px) { /*OR max-width*/
+    .example{
+        background-color: tan;
+    }
+}
+
+@media (min-width: 800px){
+    .example{
+        background-color: turquoise;
+    }
+}
+
+@media (max-width: 600px) { /*YOu can add the media type if needed*/
+
+}
