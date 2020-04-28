@@ -14,6 +14,9 @@ body{
     padding: 10em 0;
     background-color: steelblue;
 }
+p{
+    
+}
 
 @media (min-width: 600px) and (max-width: 900px) { /*OR max-width*/
     .example{
