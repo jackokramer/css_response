@@ -1,3 +1,53 @@
 *{
     margin: 0 auto;
+    max-width: 1000px;
+}
+.container{
+    max-width:1128px;
+}
+header{
+    background-color: #F3EED9;
+    min-height: 330px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, h2{
+    font-family:'Playfair Display', serif;
+}
+
+/*font-family: 'Playfair Display', serif;
+*/
+.first{
+    margin: 200px
+}
+
+.firsth2{
+    font-family: 'Roboto', serif;
+    color: #824936;
+}
+
+.first, p{
+    display: table-cell;
+    padding: 20px;
+}
+
+.second{
+    background-color: #222C2A;
+    color: whitesmoke;
+}
+
+.secondh2{
+    font-family: 'Playfair Display', serif;
+    color:#F3EED9;
+}
+
+.third{
+    background-color: #824936;
+    color:whitesmoke;
+}
+
+.thirdh2{
+    color:#F3EED9;
+    font-family: 'Playfair Display', serif;
+
 }
