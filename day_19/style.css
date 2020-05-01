@@ -10,10 +10,39 @@
     flex-shrink: 1;
 }
 
-.hamburger{
-
+.nav--toggle{
+    cursor: pointer;
+    border: 0;
+    height: 3em;
+    width: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072a2d;
+    color: white;
+    transition: opacity 250ms ease;
+    position: absolute;
+    left: 0;
 }
 
+.nav--toggle:focus, 
+.nav-toggle:hover{
+    opacity: .75;
+}
+
+.hamburger{
+    width: 50%;
+    position: relative;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before{
+    transform: translate(-6px);
+}
 .hamburger::after{
     transform: translateY(3px);
 }
